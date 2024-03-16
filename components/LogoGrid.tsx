@@ -4,37 +4,6 @@ const LogoGrid = () => {
   return (
     <>
       <div className="max-w-[85rem] mt-4 px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-        {/* <div
-          className="absolute hidden md:block"
-          style={{
-            top: "22rem",
-            left: "54%",
-            transform: "translateX(calc(-50% - 900px))",
-            width: "75.9375rem",
-          }}
-        >
-          <img
-            src="/hero-lines-1.png"
-            alt="anuy"
-          />
-        </div> */}
-
-        {/* <div
-          className="absolute hidden md:block"
-          style={{
-            top: "44rem",
-            right: "-25%",
-            transform: "translateX(calc(50% - 900px))",
-            width: "60rem",
-            // maxWidth: "calc(80% - 2 * 400px)",
-          }}
-        >
-          <img
-            src="/hero-lines-2.png"
-            alt="anuyt"
-          />
-        </div> */}
-
         <div className="max-w-xl mx-auto text-center mb-6 md:mb-12">
           <h2 className="text-xl font-semibold md:text-3xl md:leading-tight text-gray-800 dark:text-gray-200">
             Trusted by developers from the world's leading organizations

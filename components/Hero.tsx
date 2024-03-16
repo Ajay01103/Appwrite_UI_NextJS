@@ -50,6 +50,37 @@ export const Hero = () => {
             alt="2"
           />
         </div>
+
+        <div
+          className="absolute hidden md:block"
+          style={{
+            top: "22rem",
+            left: "54%",
+            transform: "translateX(calc(-50% - 900px))",
+            width: "75.9375rem",
+          }}
+        >
+          <img
+            src="/hero-lines-1.png"
+            alt="anuy"
+          />
+        </div>
+
+        <div
+          className="absolute hidden md:block"
+          style={{
+            top: "40rem",
+            left: "49%",
+            transform: "translate(calc(-50% + 800px))",
+            width: "56rem",
+            // maxWidth: "calc(80% - 2 * 400px)",
+          }}
+        >
+          <img
+            src="/hero-lines-2.png"
+            alt="anuyt"
+          />
+        </div>
         <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-10">
           <div className="flex justify-center">
             <a
