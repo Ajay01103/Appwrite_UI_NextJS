@@ -4,7 +4,7 @@ const LogoGrid = () => {
   return (
     <>
       <div className="max-w-[85rem] mt-4 px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-        <div
+        {/* <div
           className="absolute hidden md:block"
           style={{
             top: "22rem",
@@ -17,9 +17,9 @@ const LogoGrid = () => {
             src="/hero-lines-1.png"
             alt="anuy"
           />
-        </div>
+        </div> */}
 
-        <div
+        {/* <div
           className="absolute hidden md:block"
           style={{
             top: "44rem",
@@ -33,7 +33,7 @@ const LogoGrid = () => {
             src="/hero-lines-2.png"
             alt="anuyt"
           />
-        </div>
+        </div> */}
 
         <div className="max-w-xl mx-auto text-center mb-6 md:mb-12">
           <h2 className="text-xl font-semibold md:text-3xl md:leading-tight text-gray-800 dark:text-gray-200">
