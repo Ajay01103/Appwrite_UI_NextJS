@@ -26,7 +26,7 @@ export const Hero = () => {
           alt="1"
         />
       </div>
-      <div
+      {/* <div
         className="hidden md:block absolute top-[5px] left-[8%]"
         style={{
           transform: "translateY(46%)",
@@ -48,7 +48,7 @@ export const Hero = () => {
           height={804}
           alt="2"
         />
-      </div>
+      </div> */}
       <div className="relative overflow-hidden before:size-full">
         <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-10">
           <div className="flex justify-center">
