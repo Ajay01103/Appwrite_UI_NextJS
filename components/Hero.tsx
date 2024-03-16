@@ -3,53 +3,53 @@ import Image from "next/image"
 export const Hero = () => {
   return (
     <>
-      <div
-        className="absolute top-[100px] left-[8%] z-10"
-        style={{
-          transform: "translateX(-50%)",
-          pointerEvents: "none",
-        }}
-      >
-        <Image
-          style={{
-            //   width: "1466px",
-            //   height: "804px",
-            transform: "rotate(150.348deg)",
-            opacity: 0.65,
-            filter: "blur(127.5px)",
-            maxBlockSize: "unset",
-            maxInlineSize: "unset",
-          }}
-          src="/top-page-dark.png"
-          width={1466}
-          height={804}
-          alt="1"
-        />
-      </div>
-      {/* <div
-        className="hidden md:block absolute top-[5px] left-[8%]"
-        style={{
-          transform: "translateY(46%)",
-          pointerEvents: "none",
-        }}
-      >
-        <Image
-          style={{
-            //   width: "1466px",
-            //   height: "804px",
-            transform: "rotate(150deg)",
-            opacity: 0.65,
-            filter: "blur(230.5px)",
-            maxBlockSize: "unset",
-            maxInlineSize: "unset",
-          }}
-          src="/top-page-light.svg"
-          width={1466}
-          height={804}
-          alt="2"
-        />
-      </div> */}
       <div className="relative overflow-hidden before:size-full">
+        <div
+          className="absolute top-[100px] left-[8%] z-10"
+          style={{
+            transform: "translateX(-50%)",
+            pointerEvents: "none",
+          }}
+        >
+          <Image
+            style={{
+              //   width: "1466px",
+              //   height: "804px",
+              transform: "rotate(150.348deg)",
+              opacity: 0.65,
+              filter: "blur(127.5px)",
+              maxBlockSize: "unset",
+              maxInlineSize: "unset",
+            }}
+            src="/top-page-dark.png"
+            width={1466}
+            height={804}
+            alt="1"
+          />
+        </div>
+        <div
+          className="hidden md:block absolute top-[5px] left-[8%]"
+          style={{
+            transform: "translateY(46%)",
+            pointerEvents: "none",
+          }}
+        >
+          <Image
+            style={{
+              //   width: "1466px",
+              //   height: "804px",
+              transform: "rotate(150deg)",
+              opacity: 0.65,
+              filter: "blur(230.5px)",
+              maxBlockSize: "unset",
+              maxInlineSize: "unset",
+            }}
+            src="/top-page-light.svg"
+            width={1466}
+            height={804}
+            alt="2"
+          />
+        </div>
         <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-10">
           <div className="flex justify-center">
             <a
