@@ -1,3 +1,4 @@
+import { Button } from "@nextui-org/react"
 import Image from "next/image"
 
 export const Hero = () => {
@@ -123,7 +124,38 @@ export const Hero = () => {
           </div>
 
           <div className="mt-8 gap-4 flex justify-center">
-            <a
+            <Button className="text-center bg-[#fd356e] border border-transparent text-white">
+              Get Started
+            </Button>
+
+            <Button className="text-center bg-white">
+              $ npm i @appwrite/core
+              <span className="flex justify-center items-center bg-gray-200 rounded-md size-7 dark:bg-gray-700 dark:text-gray-400">
+                <svg
+                  className="flex-shrink-0 size-4 group-hover:rotate-6 transition"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <rect
+                    width="8"
+                    height="4"
+                    x="8"
+                    y="2"
+                    rx="1"
+                    ry="1"
+                  />
+                  <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
+                </svg>
+              </span>
+            </Button>
+            {/* <a
               className="inline-flex justify-center items-center gap-x-3 text-center bg-[#fd356e] border border-transparent text-white text-sm font-medium rounded-md focus:outline-none focus:ring-1 focus:ring-gray-600 py-3 px-4 dark:focus:ring-offset-gray-800"
               href="#"
             >
@@ -142,8 +174,8 @@ export const Hero = () => {
                   strokeLinecap="round"
                 />
               </svg>
-            </a>
-            <button
+            </a> */}
+            {/* <button
               type="button"
               className="relative group p-2 ps-3 inline-flex items-center gap-x-2 text-sm font-mono rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
             >
@@ -172,7 +204,7 @@ export const Hero = () => {
                   <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
                 </svg>
               </span>
-            </button>
+            </button> */}
           </div>
 
           <div className="md:pb-32 mt-8 items-center justify-center flex">
